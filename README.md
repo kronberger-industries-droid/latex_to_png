@@ -45,7 +45,7 @@ To use the LaTeX Equation Processor, prepare a CSV file with the following forma
 ### Command Line Syntax:
 
 ```bash
-`python equation_processor.py --file_path PATH_TO_CSV --output_path OUTPUT_DIRECTORY [--resolution 300] [--color #2b363a]`
+python equation_processor.py --file_path PATH_TO_CSV --output_path OUTPUT_DIRECTORY [--resolution 300] [--color #2b363a]
 ```
 
 - `--file_path`: Path to the CSV file containing the equations.
@@ -56,7 +56,7 @@ To use the LaTeX Equation Processor, prepare a CSV file with the following forma
 ### Example:
 
 ```bash
-`python equation_processor.py --file_path equations.csv --output_path images`
+python equation_processor.py --file_path equations.csv --output_path images
 ```
 
 This will process each equation in `equations.csv` and save the resulting PNG images in the `images` directory.
