@@ -33,16 +33,19 @@ This tool relies on several external applications and Python libraries. Ensure y
    - For **Windows**: Download and install from [ImageMagick Download](https://imagemagick.org/script/download.php).
 
 3. **Install Python Dependencies:**
-   - Run `pip install tabulate` to install the required Python package for tabulating output.
+   - If python is not installed yet. Go to [Python](https://www.python.org/) and install the latest version for your system. (Tested on Python 3.13.3)
+   - Run `pip install argparse os re subprocess csv shutil logging tabulate` to install the required Python package for tabulating output.
 
 ## Usage
 
 To use the LaTeX Equation Processor, prepare a CSV file with the following format:
+- Use a header
 - The first column should indicate validity of the equation with '1' (where '1' means valid).
 - The second column should contain the LaTeX equation text.
 - The third column should contain the desired filename for the output image.
 
 ### Command Line Syntax:
+First make sure you are in the directory where you installed the Application.
 
 ```bash
 python equation_processor.py --file_path PATH_TO_CSV --output_path OUTPUT_DIRECTORY [--resolution 300] [--color #2b363a]
