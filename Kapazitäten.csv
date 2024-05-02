@@ -1,0 +1,20 @@
+﻿Index,Equation,Filename
+1,C = \frac{Q}{U},capazität_allg
+1,C = \frac{\varepsilon \cdot A}{d} = \frac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d},capazität_allg
+1,C = 2 \pi \cdot \varepsilon_0 \cdot \varepsilon_r \cdot \frac{l}{\ln\left(\sfrac{R_2}{R_1}\right)},capazität_allg
+1,C = 4 \pi \cdot \varepsilon_0 \cdot \varepsilon_r \cdot \frac{R_1 \cdot R_2}{R_2 - R_1},capazität_allg
+1,Q = D \cdot A,ladung_allg
+1,Q = \varepsilon \cdot E \cdot A \\,ladung_allg
+1,Q = \frac{\varepsilon \cdot A \cdot U}{d} \\,ladung_allg
+1,Q = C \cdot U,ladung_allg
+1,W_{\text{elektr.}} = \frac{1}{2} \cdot C \cdot U^2,energie_allg
+1,\frac{1}{C_{\text{ges}}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3},energie_allg
+1,C_{\text{ges}} = \frac{C_1 \cdot C_2}{C_1 + C_2},serienschaltung_c
+1,X_C = X_{C1} + X_{C2} + X_{C3},serienschaltung_c
+1,C_{\text{ges}} = C_1 + C_2 + C_3 + \ldots,paralellschatlung_c
+1,\frac{1}{X_C} = \frac{1}{X_{C1}} + \frac{1}{X_{C2}} + \frac{1}{X_{C3}} + \ldots,paralellschatlung_c
+1,\tau = R \cdot C,zeitkonstante_rc
+1,U(t) = U_0 \cdot \left(1 - e^{-\frac{t}{\tau}}\right),spannung_laden_rc
+1,I(t) = I_0 \cdot e^{-\frac{t}{\tau}},strom_laden_rc
+1,U_C(t) = U_0 \cdot e^{-\frac{t}{\tau}},spannung_entladen_rc
+1,I(t) = -I_0 \cdot e^{-\frac{t}{\tau}},strom_entladen_rc

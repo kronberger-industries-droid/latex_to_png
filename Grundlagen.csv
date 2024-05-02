@@ -1,0 +1,31 @@
+Index, Equation, Name
+1, \sum^n_i I_i = 0 \; \rightarrow\; I_1+I_2+(-1)I_3+(-1)I_4 = 0,knoten
+1, \sum^n_i U_i = 0 \; \rightarrow\; U_1+U_2+U_3+(-1)U_q = 0,maschen
+1,U \propto I \rightarrow U = G \cdot I , ohm_gesetz
+1,I \propto U \rightarrow I = R \cdot U, ohm_gesetz
+1,P = U \cdot I, ohm_gesetz
+1,R = \rho \cdot \frac{l}{A} = \frac{I}{\sigma \cdot A}, leitung_widerstand
+1,l = R \cdot \frac{A}{\rho} = R \cdot A \cdot \sigma, leitung_laenge
+1,A = \frac{I}{R \cdot \sigma} = \frac{I \cdot \rho}{R}, leitung_flaeche
+1,\Delta R = R_{20} \cdot \alpha_{20} \cdot \Delta \theta, temp_widerstand_diff
+1,R_{\theta} = R_{20} + \Delta R, temp_widerstand
+1,\Delta \theta = \frac{R_{\theta} - R_{20}}{\alpha_{20} \cdot R_{20}}, temp_diff
+1,A = \frac{\rho \cdot l}{R_{20} \cdot (1 + \alpha_{20} \cdot \Delta \theta)}, leitung_flaeche_temp
+1,R_{\text{ges}} = R_1 + R_2 + \ldots + R_n, widerstand_seriell
+1,\frac{1}{R_{\text{ges}}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots + \frac{1}{R_n}, widerstand_parallel
+1,R_{\text{ges}} = \frac{R_1 \cdot R_2}{R_1 + R_2}, widerstand_parallel
+1,\frac{U_1}{U_2} = \frac{R_1}{R_2}, spannungsteiler
+1,\frac{U_1}{U_{\text{ges}}} = \frac{R_1}{R_1 + R_2}, spannungsteiler
+1,\frac{U_2}{U_{\text{ges}}} = \frac{R_2}{R_1 + R_2}, spannungsteiler
+1,\frac{I_2}{I_1} = \frac{R_1}{R_2}, stromteiler
+1,\frac{I_1}{I_{\text{ges}}} = \frac{R_2}{R_1 + R_2}, stromteiler 
+1,\frac{I_2}{I_{\text{ges}}} = \frac{R_1}{R_1 + R_2}, stromteiler
+1,R_{12} = \frac{R_1 \cdot R_2 + R_2 \cdot R_3 + R_3 \cdot R_1}{R_3}, dreieck-stern
+1,R_{23} = \frac{R_1 \cdot R_2 + R_2 \cdot R_3 + R_3 \cdot R_1}{R_1}, dreieck-stern
+1,R_{31} = \frac{R_1 \cdot R_2 + R_2 \cdot R_3 + R_3 \cdot R_1}{R_2}, dreieck-stern
+1,R_1 = \frac{R_{12} \cdot R_{31}}{R_{12} + R_{23} + R_{31}}, stern-dreieck
+1,R_2 = \frac{R_{12} \cdot R_{23}}{R_{12} + R_{23} + R_{31}}, stern-dreieck
+1,R_3 = \frac{R_{23} \cdot R_{31}}{R_{12} + R_{23} + R_{31}}, stern-dreieck
+1,U \propto I \rightarrow U = G \cdot I , ohm_gesetz
+1,I \propto U \rightarrow I = R \cdot U, ohm_gesetz
+1,\frac{1}{R_{\text{ges}}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots + \frac{1}{R_n}, widerstand_parallel

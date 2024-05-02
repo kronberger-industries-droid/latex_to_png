@@ -1,0 +1,28 @@
+﻿Index,Equation,Name
+1,\Phi = B \cdot A \cdot \cos(\phi),magn_fluss
+1,\Phi = \frac{I \cdot N}{R_m},magn_fluss
+1,\Theta = B \cdot A \cdot \cos(\varphi),magn_strom
+1,\Theta = \frac{I \cdot N}{R_m},magn_strom
+1,\Theta = I \cdot N,magn_durchflutung
+1,\mu_0 = \frac{B}{H},H_feld
+1,B = H \cdot \mu_r \cdot \mu_0,H_feld
+1,R_m = \frac{l}{\mu \cdot A},magn_widerstand
+1,R_m = \frac{\Theta}{\Phi},magn_widerstand
+1,\mu = \mu_0 \cdot \mu_r,magn_permeabilit
+1,\Lambda = \frac{\Phi}{\Theta},magn_leitwert
+1,\Lambda = \mu \cdot \frac{A}{l},magn_leitwert
+1,\Theta = H_E \cdot s_E + H_L \cdot s_L,magn_kreis
+1,B = \mu_0 \cdot \mu_r \cdot H_E = \frac{B_E \cdot s_E}{\mu_0 \cdot \mu_r} + \frac{B_L \cdot s_L}{\mu_0} = B \cdot \left( \frac{s_E}{\mu_0 \cdot \mu_r} + \frac{s_L}{\mu_0} \right),magn_kreis
+1,L = \frac{N \cdot \Phi}{I},induktiv
+1,L = N^2 \cdot \mu_0 \cdot \mu_r \cdot \frac{A}{l},induktiv_zyl
+1,L = N^2 \cdot \mu_0 \cdot \mu_r \cdot \frac{A}{l},induktiv_ring
+1,L = \frac{N^2 \cdot \mu_0 \cdot \mu_r \cdot h}{2\pi},induktiv_ring
+1,L_{\text{ges}} = L_1 + L_2 + L_3,reihe_spule
+1,\frac{1}{L_{\text{ges}}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} \\,paralell_spule
+1,L_{\text{ges}} = \frac{L_1 \cdot L_2}{L_1 + L_2},paralell_spule
+1,W_{\text{magn.}} = \frac{1}{2} \cdot L \cdot I^2,energie_spule
+1,I(t) = \frac{U_0}{R} \cdot e^{-\frac{t}{\tau}},strom_ein_rl
+1,U_L(t) = -U_0 \cdot e^{-\frac{t}{\tau}},spannung_ein_rl
+1,I(t) = \frac{U_0}{R} \cdot \left(1 - e^{-\frac{t}{\tau}}\right),strom_aus_rl
+1,U_L(t) = U_0 \cdot e^{-\frac{t}{\tau}},spannung_ein_rl
+1,\tau = \frac{L}{R},zeitkonst_rl
