@@ -71,3 +71,5 @@ If you encounter issues with LaTeX compilation or ImageMagick conversion, check 
 - Confirm that ImageMagick permissions are set to allow PDF to PNG conversions, especially on macOS and Windows.
 
 For further assistance, consult the application logs or adjust the logging level in the script.
+
+This project is licensed under the MIT License - see the LICENSE file for details.
