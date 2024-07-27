@@ -23,18 +23,16 @@ This tool relies on several external applications and Python libraries. Ensure y
 ## Installation
 
 1. **Install LaTeX Distribution:**
-   - For **Ubuntu**: `sudo apt-get install texlive-xetex`
-   - For **Fedora**: `sudo dnf install texlive-xetex`
    - For **Windows**: Download and install from [MikTeX](https://miktex.org) or [TeX Live](http://tug.org/texlive/).
 
 2. **Install ImageMagick:**
-   - For **Ubuntu**: `sudo apt-get install imagemagick`
-   - For **Fedora**: `sudo dnf install imagemagick`
    - For **Windows**: Download and install from [ImageMagick Download](https://imagemagick.org/script/download.php).
+   
+3. **Install GhostScript:**
+   - For **Windows**: Download and install from [GhostScript Download](https://ghostscript.com/releases/gsdnld.html)
 
-3. **Install Python Dependencies:**
+4. **Install Python Dependencies:**
    - If python is not installed yet. Go to [Python](https://www.python.org/) and install the latest version for your system. (Tested on Python 3.13.3)
-   - Run `pip install argparse os re subprocess csv shutil logging tabulate` to install the required Python package for tabulating output.
 
 ## Usage
 
@@ -71,5 +69,3 @@ If you encounter issues with LaTeX compilation or ImageMagick conversion, check 
 - Confirm that ImageMagick permissions are set to allow PDF to PNG conversions, especially on macOS and Windows.
 
 For further assistance, consult the application logs or adjust the logging level in the script.
-
-This project is licensed under the MIT License - see the LICENSE file for details.
