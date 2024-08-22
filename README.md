@@ -8,6 +8,16 @@ This tool relies on several external applications and Python libraries. Ensure y
 
 ### External Applications:
 - **TeX Live** or **MikTeX**: LaTeX distribution that includes `xelatex`.
+   - **Arch Linux Packages required**:
+      - texlive-xetex
+      - texlive-pictures
+      - texlive-latexrecommended
+      - texlive-latexextra
+      - texlive-latex
+      - texlive-fontsrecommended
+      - texlive-fontsextra
+      - texlive-bin
+      - texlive-basic
 - **ImageMagick**: Tool for image conversion, specifically used here to convert PDFs to PNGs.
 
 ### Python Libraries:
